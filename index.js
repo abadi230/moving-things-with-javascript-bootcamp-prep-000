@@ -3,7 +3,7 @@ var dodger = document.getElementById('dodger');
 dodger.style.backgroundColor = "#000000";
 // dodger.sytle = $('#dodger');
 
-
+/*
 //moving dodger 
 document.addEventListener('keydown', (e)=>{
     if(e.which === 37){ // move left
@@ -29,7 +29,7 @@ document.addEventListener('keydown', (e)=>{
         bottom > 0 ? dodger.style.bottom = `${buttomNumbers - 1}px`:0
     }
 });
-
+*/
 
 function moveDodgerRight(){
 //create right style
