@@ -33,6 +33,7 @@ document.addEventListener('keydown', (e)=>{
 
 function moveDodgerRight(){
 //create right style
+
 // move to right
 // condition 
 
