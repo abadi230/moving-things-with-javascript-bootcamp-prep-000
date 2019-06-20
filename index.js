@@ -33,9 +33,12 @@ document.addEventListener('keydown', (e)=>{
 
 function moveDodgerRight(){
 //create right style
-
+  var dodgerL = dodger.style.left.replace('px','');
+  var dodgerN = parseInt(dodgerL, 10);
+  
 // move to right
-// condition 
 
+// condition 
+dodgerN < 360 ? dodger.style.left = `${dodgerN + 1}px`:0
 }
 
