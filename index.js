@@ -32,11 +32,9 @@ document.addEventListener('keydown', (e)=>{
 
 
 function moveDodgerRight(){
-  
-  var right = dodger.style.right;
-   var leftNumbers = dodger.style.left.replace('px', '')
-      var left = parseInt(leftNumbers, 10)
-      
-  right > 0 ? dodger.style.left = `${left + 1}px`:0 
+//create right style
+// move to right
+// condition 
+
 }
 
